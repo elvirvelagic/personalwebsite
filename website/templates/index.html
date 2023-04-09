@@ -28,21 +28,44 @@
 
         <section class="sec-2">
 
-            <h3>CV</h3>
-            <img src="{{ url_for('static', filename='images/cv.png')}}" height="250" width="203">
-            <img src="{{ url_for('static', filename='images/cv.png')}}" height="250" width="203">
-            <img src="{{ url_for('static', filename='images/cv.png')}}" height="250" width="203">
-            <img src="{{ url_for('static', filename='images/cv.png')}}" height="250" width="203">
+            <a href="{{ url_for('static', filename='CV-ElvirVelagic.pdf')}}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ url_for('static', filename='images/cvtest3.png')}}" height="250" width="203" alt="Download CV" title="Download CV" id="test1">
+            </a>
+            <a href="https://www.linkedin.com/in/elvir-velagic-760563212/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ url_for('static', filename='images/linkedinexempel3.png')}}" height="250" width="203" title="Visit linkedin page" id="test2">
+            </a>
+            <a href="https://github.com/QueeenAnna/AI-project" target="_blank" rel="noopener noreferrer">
+            <img src="{{ url_for('static', filename='images/foodreq3.png')}}" height="250" width="203" title="Visit github project" id="test3">
+            </a>
+            <img src="{{ url_for('static', filename='images/cvtest3.png')}}" height="250" width="203" id="test4">
+            <img src="{{ url_for('static', filename='images/cvtest3.png')}}" height="250" width="203" id="test5">
 
-            <a href="{{ url_for('static', filename='CV-ElvirVelagic.pdf')}}">
+            <!-- <a href="{{ url_for('static', filename='CV-ElvirVelagic.pdf')}}">
                 <button type="button" data-download=""class="download-btn" data-timer="10">
                     <span class="icon material-symbols-rounded">vertical_align_bottom</span>
                     <span class="text">Ladda Ner</span>
                 </button>
-            </a>
+            </a> -->
             
             
 
+        </section>
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </section>
         
 
@@ -74,7 +97,39 @@
                 },
                 x: -200,
             })
+            gsap.from("#test1",{
+                scrollTrigger : {
+                    scrub : true
+                },
+                x: -300,
+            })
+            gsap.from("#test2",{
+                scrollTrigger : {
+                    scrub : true
+                },
+                y: 300,
+            })
             
+            gsap.from("#test3",{
+                scrollTrigger : {
+                    scrub : true
+                },
+                y: -450,
+            })
+
+            gsap.from("#test4",{
+                scrollTrigger : {
+                    scrub : true
+                },
+                x: -500,
+            })
+
+            gsap.from("#test5",{
+                scrollTrigger : {
+                    scrub : true
+                },
+                x: 500,
+            })
         </script>
     </body>
     
