@@ -29,6 +29,10 @@
     padding: 100px;
     position: relative;
 }
+.div2
+{
+  margin: auto;
+}
 .sec-2 h2
 {
     font-size: 1.1em;
@@ -91,8 +95,7 @@
 }
 .sec-2 img
 {
-  padding-bottom: 15px;
-  margin: 0 40px 0 0;
+  
   border-radius: 6px;
 
 }
@@ -121,4 +124,29 @@
   font-size: 1em;
   color: #fff;
   font-weight: 300;
+}
+.sec-4
+{
+  padding: 200px;
+  background-color: #110620;
+}
+.sec-4 img
+{
+  border-radius: 6px;
+}
+.sec-4 img:hover
+{
+  opacity: 0.75;
+}
+.column
+{
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+.row::after
+{
+  content: "";
+  display: table;
+  clear: both;
 }
