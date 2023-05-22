@@ -33,13 +33,7 @@
 {
   margin: auto;
 }
-.sec-2 h2
-{
-    font-size: 1.1em;
-    padding-left: 80px;
-    color: #fff;
-    font-weight: 300;
-}
+
 /* .background-image
 {
     background-image: url(./images/bluebackground.png);
@@ -88,10 +82,27 @@
   }
 .sec-2 h3
 {
-  font-size: 2em;
+  font-size: 3em;
   padding-left: 80px;
-  padding-bottom: 25px;
-  color: #fff;
+  
+  color: #4d1352;
+  
+}
+.sec-2 h2
+{
+    font-size: 2em;
+    padding-left: 80px;
+    color: #e02074;
+    
+}
+.sec-2 h1
+{
+  font-size: 1em;
+  padding-left: 80px;
+  color: #adabab;
+  padding-top: 14px;
+  font-weight: 300;
+
 }
 .sec-2 img
 {
